@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "moltbot-worker-david4",
+  "name": "moltbot-worker-david6",
   "main": "src/index.ts",
   "compatibility_date": "2025-05-06",
   // Force redeploy: 2026-02-07
