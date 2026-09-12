@@ -36,3 +36,7 @@ Thumbs.db
 
 # Docker build artifacts
 *.tar
+
+# Loom (cloned upstream repo + virtualenv, see loom/install-loom.sh)
+loom/loom/
+loom/.venv/

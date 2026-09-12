@@ -412,6 +412,19 @@ OpenClaw in Cloudflare Sandbox uses multiple authentication layers:
 
 **WebSocket issues in local development:** `wrangler dev` has known limitations with WebSocket proxying through the sandbox. HTTP requests work but WebSocket connections may fail. Deploy to Cloudflare for full functionality.
 
+## Extras: Loom (base-model writing interface)
+
+This repo also includes a tested setup for [Loom](https://github.com/socketteer/loom),
+a tree-based writing interface for exploring **base model** completions
+(davinci-002, Llama base models, local llama.cpp, ...). It's a desktop GUI,
+independent of the Cloudflare worker. See [loom/README.md](loom/README.md):
+
+```bash
+./loom/install-loom.sh
+export OPENAI_API_KEY=sk-...
+./loom/run-loom.sh
+```
+
 ## Links
 
 - [OpenClaw](https://github.com/openclaw/openclaw)

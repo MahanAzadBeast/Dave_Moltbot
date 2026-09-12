@@ -1,0 +1,120 @@
+# Loom — running base models
+
+[Loom](https://github.com/socketteer/loom) is a tree-based (multiverse) writing
+interface built for **base models**: you write a prompt, generate N
+continuations at a node, and explore/branch the tree. This folder contains a
+tested installer and a guide for pointing Loom at base models.
+
+Loom is a desktop GUI (Python + tkinter), so run it on your own machine
+(Mac/Windows/Linux), not on a headless server.
+
+## Install
+
+```bash
+./loom/install-loom.sh
+```
+
+The script:
+
+1. finds a Python 3.10+ that has tkinter (on macOS: `brew install python-tk`;
+   on Debian/Ubuntu: `sudo apt-get install python3-tk`),
+2. clones `socketteer/loom` into `loom/loom/` (gitignored),
+3. creates a virtualenv at `loom/.venv/` and installs
+   [`requirements-modern.txt`](requirements-modern.txt) — the upstream
+   `requirements.txt` pins 2020-era versions that no longer build on current
+   Python, so we use a modernized set (verified working on Python 3.12).
+
+## Run
+
+```bash
+export OPENAI_API_KEY=sk-...     # see provider options below
+./loom/run-loom.sh
+```
+
+Instead of exporting, you can put keys in `loom/.env` (gitignored):
+
+```bash
+OPENAI_API_KEY=sk-...
+TOGETHERAI_API_KEY=...
+```
+
+Basic workflow: type into the story box, press `g` (or the **Generate**
+button) to sample continuations, arrow keys to walk the tree, `Ctrl-Shift-P`
+for generation settings (model, temperature, number of continuations, length).
+
+## Choosing a base model
+
+Loom's generation settings (`Ctrl-Shift-P`) have a **model** dropdown. Models
+are defined under **Settings → Model config**, where you can add your own with
+**Add Model**.
+
+> **Important quirk:** Loom sends the *model id* (the first field in the Add
+> Model dialog, i.e. the dropdown key) as the `model` parameter of the API
+> call. So when adding a model, set the **Model id to the provider's exact
+> model string** (e.g. `meta-llama/Meta-Llama-3.1-405B`); the "Model name"
+> field is cosmetic.
+
+### Option 1 — OpenAI (works out of the box)
+
+`davinci-002` and `babbage-002` are OpenAI's remaining base models and are
+already in Loom's default model list. Just set `OPENAI_API_KEY` and pick
+`davinci-002` in generation settings. (`gpt-3.5-turbo-instruct` is also
+pre-configured; it's instruct-tuned, not a true base model.)
+
+### Option 2 — OpenAI-compatible providers with strong base models
+
+Any provider with an OpenAI-compatible **completions** endpoint works via
+**Add Model** with type `openai`. Because type `openai` reads
+`OPENAI_API_KEY`, set that env var to the *provider's* key when using one of
+these (one provider per session):
+
+| Provider | API base | Example base models |
+|---|---|---|
+| Hyperbolic | `https://api.hyperbolic.xyz/v1` | `meta-llama/Meta-Llama-3.1-405B` (base) |
+| OpenRouter | `https://openrouter.ai/api/v1` | `meta-llama/llama-3.1-405b` (base) |
+| Together AI | `https://api.together.xyz/v1` | `mistralai/Mistral-7B-v0.1` |
+
+Add Model example for Hyperbolic's Llama 3.1 405B **base**:
+
+- Model id: `meta-llama/Meta-Llama-3.1-405B`
+- Model name: `llama-405b-base`
+- Model type: `openai`
+- API base: `https://api.hyperbolic.xyz/v1`
+
+Together AI has its own model type `together` (uses `TOGETHERAI_API_KEY`, so
+it can coexist with an OpenAI key); `mistralai/Mistral-7B-v0.1` is already in
+the default list. Note: with type `together`, `logprobs` must be > 0 in
+generation settings.
+
+Notes:
+- Base models need the plain **completions** API. Loom uses it for every type
+  except `openai-chat`, which is what you want.
+- Some providers don't support `logprobs`/`echo` on completions; if generation
+  errors, try setting `logprobs` to 0 (or 1) in generation settings.
+
+### Option 3 — Fully local with llama.cpp
+
+Loom ships a preset `llama-cpp-port-8009` that points at
+`http://localhost:8009/v1`. Serve any GGUF **base** model (e.g.
+`Meta-Llama-3-8B`, not `-Instruct`) with:
+
+```bash
+pip install "llama-cpp-python[server]"
+python -m llama_cpp.server --model /path/to/Meta-Llama-3-8B.Q4_K_M.gguf --port 8009
+```
+
+Then pick `llama-cpp-port-8009` in generation settings. No API key needed.
+(llama.cpp can't batch, so Loom makes N sequential calls for N continuations.)
+
+## Troubleshooting
+
+- **`ModuleNotFoundError: tkinter`** — your Python lacks Tk bindings; install
+  `python3-tk` (Linux) / `brew install python-tk` (macOS) and rerun the
+  installer.
+- **PyTorch warning from transformers at startup** — harmless; Loom only uses
+  the tokenizer utilities.
+- **Blank error on Generate** — check the terminal Loom was launched from; API
+  errors (bad key, unsupported `logprobs`, wrong model id) are printed there.
+- **Model config is saved per tree file** — models you add via Settings →
+  Model config live in the currently open tree's JSON, so re-add them (or
+  reuse a tree file as a template) for new trees.
