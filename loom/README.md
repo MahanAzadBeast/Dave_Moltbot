@@ -131,6 +131,31 @@ Settings → Model config → Add Model:
 Or start from the ready-made tree `gpt2-local/gpt2_demo.json` (File → Open),
 which has this model config baked in.
 
+## The Arago experiment
+
+[`base-model/`](base-model/) holds a ready-to-run experiment in the
+[cyborgism](https://cyborgism.wiki/hypha/arago) vein: a seed framing François
+Arago's last notebook so that a simulator's own artifacts (repetition,
+anachronism, format collapse) read as the narrator's dawning suspicion that
+his world is not continuous.
+
+- `arago-seed.txt` — the seed prompt.
+- `arago.json` — a Loom tree with the seed and four models pre-configured
+  (`davinci-002`, Hyperbolic Llama-3.1-405B base, Together Mistral-7B-v0.1,
+  and `local-gguf`). Open it, pick a model in generation settings (`Ctrl-Shift-P`),
+  press `g`.
+- `serve-gguf.sh` — serve any local GGUF base model to Loom via llama.cpp on
+  `http://127.0.0.1:8011/v1`, no API key.
+
+A run against GPT-2 124M is preserved in
+[`../gpt2-local/arago-gpt2-run.json`](../gpt2-local/arago-gpt2-run.json) (42
+nodes). It is worth opening as a baseline: at that scale the *leaks* are real
+but no narrator survives to notice them — the document decays into archival
+debris and terminates on a literal end-of-text token. Model scale is the
+variable that matters here; a base model large enough to hold a character
+across paragraphs turns those same artifacts into something that reads as
+awareness.
+
 ## Troubleshooting
 
 - **`ModuleNotFoundError: tkinter`** — your Python lacks Tk bindings; install

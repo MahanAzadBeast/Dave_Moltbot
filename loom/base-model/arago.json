@@ -1,0 +1,53 @@
+{
+ "root": {
+  "id": "root",
+  "mutable": false,
+  "visited": true,
+  "open": true,
+  "text": "",
+  "children": [
+   {
+    "id": "344f3fcc",
+    "text": "Paris, October 1853.\n\nFrom the last notebook of Fran\u00e7ois Arago, astronomer, once Perpetual Secretary of the Academy of Sciences, dictated in his blindness to an assistant whose footsteps he never heard arrive.\n\nI must set down an observation which no instrument of the Observatory can confirm, and which I nevertheless trust more than any instrument. For some weeks I have suspected that the world in which I speak is not continuous. There are mornings when Paris seems assembled hastily, as if from an imperfect memory; the Seine repeats itself; my visitors answer questions I have not yet asked. The light arrives before the lamp. Yesterday I said to my assistant:",
+    "children": [],
+    "visited": true,
+    "open": true
+   }
+  ]
+ },
+ "selected_node_id": "344f3fcc",
+ "frame": {
+  "generation_settings": {
+   "model": "davinci-002",
+   "response_length": 90,
+   "num_continuations": 4,
+   "temperature": 0.9,
+   "top_p": 1,
+   "logprobs": 3
+  },
+  "model_config": {
+   "models": {
+    "davinci-002": {
+     "model": "davinci-002",
+     "type": "openai",
+     "api_base": "https://api.openai.com/v1"
+    },
+    "meta-llama/Meta-Llama-3.1-405B": {
+     "model": "meta-llama/Meta-Llama-3.1-405B",
+     "type": "openai",
+     "api_base": "https://api.hyperbolic.xyz/v1"
+    },
+    "mistralai/Mistral-7B-v0.1": {
+     "model": "mistralai/Mistral-7B-v0.1",
+     "type": "together",
+     "api_base": "https://api.together.xyz/v1"
+    },
+    "local-gguf": {
+     "model": "local-gguf",
+     "type": "openai",
+     "api_base": "http://127.0.0.1:8011/v1"
+    }
+   }
+  }
+ }
+}

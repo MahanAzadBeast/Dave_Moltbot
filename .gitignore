@@ -42,3 +42,7 @@ loom/loom/
 loom/.venv/
 loom/gpt2-local/*.onnx
 loom/gpt2-local/*.tiktoken
+
+# llama.cpp binaries fetched by base-model/serve-gguf.sh
+loom/base-model/llamacpp/
+loom/base-model/*.zip
