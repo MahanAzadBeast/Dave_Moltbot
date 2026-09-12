@@ -106,6 +106,31 @@ python -m llama_cpp.server --model /path/to/Meta-Llama-3-8B.Q4_K_M.gguf --port 8
 Then pick `llama-cpp-port-8009` in generation settings. No API key needed.
 (llama.cpp can't batch, so Loom makes N sequential calls for N continuations.)
 
+### Option 4 — Zero-key local GPT-2 (tested end-to-end)
+
+If you have no API keys at all, [`gpt2-local/`](gpt2-local/) runs OpenAI's
+original GPT-2 base model (124M) fully locally on CPU behind a
+Loom-compatible completions server — echo, logprobs, and batched
+multi-continuation sampling included. Weights come from the official
+`onnx/models` zoo (checksum-verified), the tokenizer from `openai/whisper`'s
+repo, so no Hugging Face account is needed.
+
+```bash
+./loom/gpt2-local/fetch-gpt2.sh                       # ~665 MB download
+./loom/.venv/bin/pip install onnxruntime tiktoken flask
+./loom/.venv/bin/python loom/gpt2-local/server.py \
+    --model loom/gpt2-local/gpt2-lm-head-10.onnx \
+    --tokenizer loom/gpt2-local/gpt2.tiktoken --port 8010
+```
+
+Then in Loom (with `OPENAI_API_KEY` set to any placeholder), add a model via
+Settings → Model config → Add Model:
+
+- Model id: `gpt2` · type: `openai` · API base: `http://127.0.0.1:8010/v1`
+
+Or start from the ready-made tree `gpt2-local/gpt2_demo.json` (File → Open),
+which has this model config baked in.
+
 ## Troubleshooting
 
 - **`ModuleNotFoundError: tkinter`** — your Python lacks Tk bindings; install

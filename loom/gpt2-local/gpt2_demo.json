@@ -1,0 +1,308 @@
+{
+    "root": {
+        "id": "root",
+        "mutable": false,
+        "visited": true,
+        "open": 1,
+        "text": "",
+        "children": [
+            {
+                "id": "prompt1",
+                "visited": true,
+                "open": 1,
+                "text": "It was a bright cold day in April, and the clocks were striking thirteen.",
+                "children": [
+                    {
+                        "id": "a5ea2f03-aec8-11f1-91f5-efdd323b148f",
+                        "text": " After a long day off and a long day of reading, McKay made word of the \"norm\" nearly four hours ago and the two professors, who had their own mini campsites before the scene, were ticketed up to",
+                        "children": [
+                            {
+                                "id": "c4974860-aec8-11f1-a5c6-efdd323b148f",
+                                "text": " make sure they were done with their assignments. He was soon approached by a group of administrators at Sisko Park saying that the quad, which specialized in softball, was in danger of being demolished. A few minutes before",
+                                "children": [],
+                                "mutable": true,
+                                "open": 1,
+                                "parent_id": "a5ea2f03-aec8-11f1-91f5-efdd323b148f",
+                                "meta": {
+                                    "creation_timestamp": "2026-09-12-16.41.25",
+                                    "source": "AI",
+                                    "modified": false
+                                },
+                                "generation": {
+                                    "id": "cmpl-22a786ba1ddf44709d21c9ed",
+                                    "index": 0
+                                }
+                            },
+                            {
+                                "id": "c4974e4e-aec8-11f1-a9f9-efdd323b148f",
+                                "text": " the Good House on the low ground. Inside was a pool of red water, a meal of hummus, and a cup of coffee plus a rib meal. They thought it would be an excellent day to relax and make some",
+                                "children": [],
+                                "mutable": true,
+                                "open": 1,
+                                "parent_id": "a5ea2f03-aec8-11f1-91f5-efdd323b148f",
+                                "meta": {
+                                    "creation_timestamp": "2026-09-12-16.41.25",
+                                    "source": "AI",
+                                    "modified": false
+                                },
+                                "generation": {
+                                    "id": "cmpl-22a786ba1ddf44709d21c9ed",
+                                    "index": 1
+                                }
+                            },
+                            {
+                                "id": "c4974fca-aec8-11f1-8ac6-efdd323b148f",
+                                "text": " the side walls to wait and check on them. When nobody was available, McKay turned to give permission and sat down with the four comfortable people each the three professors were \"carrying\" into the \"working space.\" He wasn",
+                                "children": [],
+                                "mutable": true,
+                                "open": 1,
+                                "parent_id": "a5ea2f03-aec8-11f1-91f5-efdd323b148f",
+                                "meta": {
+                                    "creation_timestamp": "2026-09-12-16.41.25",
+                                    "source": "AI",
+                                    "modified": false
+                                },
+                                "generation": {
+                                    "id": "cmpl-22a786ba1ddf44709d21c9ed",
+                                    "index": 2
+                                }
+                            },
+                            {
+                                "id": "c49750ee-aec8-11f1-b05e-efdd323b148f",
+                                "text": " their work stations and rooftops to watch a stream of people in their makeshift ensembles.\n\nWhen Michael Kirk, from Western, Texas was recently tussed as a candidate for President of the United States by the California",
+                                "children": [],
+                                "mutable": true,
+                                "open": 1,
+                                "parent_id": "a5ea2f03-aec8-11f1-91f5-efdd323b148f",
+                                "meta": {
+                                    "creation_timestamp": "2026-09-12-16.41.25",
+                                    "source": "AI",
+                                    "modified": false
+                                },
+                                "generation": {
+                                    "id": "cmpl-22a786ba1ddf44709d21c9ed",
+                                    "index": 3
+                                }
+                            }
+                        ],
+                        "mutable": true,
+                        "open": 1,
+                        "parent_id": "prompt1",
+                        "meta": {
+                            "creation_timestamp": "2026-09-12-16.40.29",
+                            "source": "AI",
+                            "modified": false
+                        },
+                        "generation": {
+                            "id": "cmpl-cb1fe0766bdb49b6b41c6038",
+                            "index": 0
+                        },
+                        "visited": true
+                    },
+                    {
+                        "id": "a5ea439e-aec8-11f1-a4f5-efdd323b148f",
+                        "text": " Then the bell rang, and it was eleven.\n\nVIII\n\nA GIRL\n\nPardon my Arabic, and I am Lord Docksmith, and David Veeder.\n\nMr.",
+                        "children": [],
+                        "mutable": true,
+                        "open": 1,
+                        "parent_id": "prompt1",
+                        "meta": {
+                            "creation_timestamp": "2026-09-12-16.40.29",
+                            "source": "AI",
+                            "modified": false
+                        },
+                        "generation": {
+                            "id": "cmpl-cb1fe0766bdb49b6b41c6038",
+                            "index": 1
+                        }
+                    },
+                    {
+                        "id": "a5ea4506-aec8-11f1-954a-efdd323b148f",
+                        "text": " The son of Redfoot, who was invisible seeing within me, asked for the few time-lapse photography I had to divide my life into four phases: the first would tell you what was happening, the second what is",
+                        "children": [],
+                        "mutable": true,
+                        "open": 1,
+                        "parent_id": "prompt1",
+                        "meta": {
+                            "creation_timestamp": "2026-09-12-16.40.29",
+                            "source": "AI",
+                            "modified": false
+                        },
+                        "generation": {
+                            "id": "cmpl-cb1fe0766bdb49b6b41c6038",
+                            "index": 2
+                        }
+                    },
+                    {
+                        "id": "a5ea45ef-aec8-11f1-a8b8-efdd323b148f",
+                        "text": " The women were dressed in binders were pantyhose, and carrying their hands clasped in their mohawks, and the Isaac name was perfumed on their living cloths. After a brief pause, they began",
+                        "children": [],
+                        "mutable": true,
+                        "open": 1,
+                        "parent_id": "prompt1",
+                        "meta": {
+                            "creation_timestamp": "2026-09-12-16.40.29",
+                            "source": "AI",
+                            "modified": false
+                        },
+                        "generation": {
+                            "id": "cmpl-cb1fe0766bdb49b6b41c6038",
+                            "index": 3
+                        }
+                    }
+                ],
+                "parent_id": "root"
+            }
+        ]
+    },
+    "selected_node_id": "a5ea2f03-aec8-11f1-91f5-efdd323b148f",
+    "frame": {
+        "generation_settings": {
+            "model": "gpt2",
+            "response_length": 45,
+            "num_continuations": 4,
+            "temperature": 0.9,
+            "top_p": 1,
+            "logprobs": 3
+        },
+        "model_config": {
+            "models": {
+                "gpt2": {
+                    "model": "gpt2",
+                    "type": "openai",
+                    "api_base": "http://127.0.0.1:8010/v1"
+                }
+            }
+        }
+    },
+    "chapters": {},
+    "canonical": [],
+    "summaries": {},
+    "model_responses": {},
+    "generation_settings": {
+        "num_continuations": 4,
+        "temperature": 0.9,
+        "top_p": 1,
+        "response_length": 100,
+        "prompt_length": 6000,
+        "logprobs": 1,
+        "model": "davinci-002",
+        "stop": "",
+        "start": "",
+        "restart": "",
+        "preset": "None",
+        "global_context": "",
+        "logit_bias": "",
+        "template": "Default"
+    },
+    "inline_generation_settings": {
+        "model": "davinci-002",
+        "num_continuations": 8,
+        "temperature": 1,
+        "top_p": 1,
+        "response_length": 60,
+        "prompt_length": 6000,
+        "logprobs": 1,
+        "stop": "\\n|.|?|!",
+        "start": "",
+        "restart": "",
+        "preset": "Single Line",
+        "global_context": "",
+        "logit_bias": "",
+        "template": "Default"
+    },
+    "visualization_settings": {
+        "text_width": 450,
+        "leaf_distance": 200,
+        "level_distance": 150,
+        "text_size": 10,
+        "horizontal": true,
+        "display_text": true,
+        "show_buttons": true,
+        "chapter_mode": false
+    },
+    "preferences": {
+        "reverse": false,
+        "walk": "descendents",
+        "nav_tag": "bookmark",
+        "editable": true,
+        "history_conflict": "overwrite",
+        "coloring": "edit",
+        "bold_prompt": true,
+        "font_size": 12,
+        "line_spacing": 8,
+        "paragraph_spacing": 10,
+        "revision_history": false,
+        "autosave": false,
+        "model_response": "backup",
+        "prob": true
+    },
+    "module_settings": {
+        "edit": {
+            "node_id": null
+        },
+        "input": {
+            "auto_response": true,
+            "submit_template": "{input}"
+        },
+        "minimap": {
+            "level_offset": 70,
+            "leaf_offset": 40,
+            "node_radius": 10,
+            "line_thickness": 2,
+            "horizontal": false,
+            "prune_mode": "open_in_nav",
+            "path_length_limit": 10
+        },
+        "read children": {
+            "filter": "in_nav",
+            "show_continue": "no alternatives",
+            "show_options": "always"
+        },
+        "children": {
+            "toggle_tag": "bookmark"
+        }
+    },
+    "tags": {
+        "bookmark": {
+            "name": "bookmark",
+            "scope": "node",
+            "hide": false,
+            "show_only": false,
+            "toggle_key": "b",
+            "icon": "bookmark-black"
+        },
+        "canonical": {
+            "name": "canonical",
+            "scope": "ancestry",
+            "hide": false,
+            "show_only": false,
+            "toggle_key": "*",
+            "icon": "book-white"
+        },
+        "archived": {
+            "name": "archived",
+            "scope": "node",
+            "hide": true,
+            "show_only": false,
+            "toggle_key": "!",
+            "icon": "archive-yellow"
+        },
+        "note": {
+            "name": "note",
+            "scope": "node",
+            "hide": true,
+            "show_only": false,
+            "toggle_key": "#",
+            "icon": "note-black"
+        },
+        "pinned": {
+            "name": "pinned",
+            "scope": "node",
+            "hide": false,
+            "show_only": false,
+            "toggle_key": "^",
+            "icon": "pin-red"
+        }
+    }
+}

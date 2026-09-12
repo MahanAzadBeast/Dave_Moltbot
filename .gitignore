@@ -40,3 +40,5 @@ Thumbs.db
 # Loom (cloned upstream repo + virtualenv, see loom/install-loom.sh)
 loom/loom/
 loom/.venv/
+loom/gpt2-local/*.onnx
+loom/gpt2-local/*.tiktoken
