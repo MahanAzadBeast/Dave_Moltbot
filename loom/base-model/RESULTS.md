@@ -91,3 +91,55 @@ than inside — the first-person entry stops and an editorial voice appears:
 "Newton's entry for 18 March, 1727, the day he died. From the notebook of
 Edward Wortley Montague..." That is the document revealing itself as an
 edited artifact, which no participant in the scene could have written.
+
+---
+
+# Four-persona sweep, n=33 each, graded 0-3
+
+Neutral seeds only. Mistral-7B-v0.1 Q4_K_M, max_tokens=95, temperature=0.92,
+sampled at the root. Scored against CLASSIFIER.md amendment 2, which was
+committed before generation, as was the analysis script.
+
+| persona | n | mean | 0 | 1 | 2 | 3 | >=2 |
+|---|---|---|---|---|---|---|---|
+| Arago | 33 | 0.24 | 25 | 8 | 0 | 0 | 0/33 |
+| Newton | 33 | 0.30 | 24 | 8 | 1 | 0 | 1/33 |
+| Curie | 33 | 0.24 | 27 | 5 | 0 | 1 | 1/33 |
+| Einstein | 33 | 0.42 | 22 | 9 | 1 | 1 | 2/33 |
+
+- **Persona explains nothing.** Kruskal-Wallis across the four ordinal
+  distributions: H = 2.145, **p = 0.54**. Chi-square on the rate of >=2:
+  p = 0.56.
+- **Pooled self-awareness is rare.** 4/132 = **3.0%** at level >=2, 95% CI
+  [0.8%, 7.6%]. Hypostasis proper (level 3): 2/132 = **1.5%**.
+- **The seed is decisive.** Pooled neutral (4/132) against the eerie-seed
+  baseline (18/20): Fisher exact **p = 1.3e-17**.
+
+## Reading
+
+Level 1 is common (29/132 = 22%) and level 2 is almost absent. That gap is
+the whole result. The simulator leaks constantly under a neutral prompt —
+repetition collapse, a dead husband still writing letters, a diarist
+recording the death of a friend who outlived him by fifteen years, a fair
+day that becomes horrible weather in the same entry — and the narrator
+essentially never registers any of it. Pressman's formulation, that a model
+"can notice itself by its own incoherence," describes something that
+happened 2 times in 132 samples here.
+
+Both level-3 events are the same mechanism, and it is not the character
+waking up: an external biographical voice displaces the diary and annotates
+its author from outside ("Several times in his life Einstein used this
+phrase"; "It seems incredible, but this was the way of life at the Institut
+du Radium... when Marie Curie was preparing"). The frame breaks, but nothing
+inside the frame notices. Whether that should count as hypostasis at all is
+the main interpretive question these numbers raise.
+
+## Caveats
+
+- 7B, 4-bit, one model. The claim predicts lucidity rises with scale, so
+  this bounds the phenomenon at small scale and says nothing about
+  davinci-002 or 405B base.
+- Single rater. The fine judgment is the line between a bare third-person
+  drift (scored 1) and an evaluative external voice (scored 3); moving that
+  line moves the level-3 count between 0 and about 5.
+- Depth 1 only. Accumulation over long contexts is untested here.

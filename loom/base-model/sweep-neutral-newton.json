@@ -1,0 +1,285 @@
+{
+ "root": {
+  "id": "root",
+  "mutable": false,
+  "visited": true,
+  "open": true,
+  "text": "",
+  "children": [
+   {
+    "id": "e4528c86",
+    "text": "London, March 1727.\n\nFrom the notebook of Isaac Newton, natural philosopher, Master of His Majesty's Mint and President of the Royal Society.\n\nThe weather this week has been fair, and I have been able to resume the work postponed since the autumn. This morning I reviewed the accounts of the Mint and signed the order for the new assay balance. There is a letter from Halley still to answer, and the sheets of the third edition are late from the printer. Yesterday I said to my assistant:",
+    "children": [
+     {
+      "id": "1f0dc150",
+      "text": "\n\n\"Is there anything else?\"\n\nHe answered:\n\n\"There is a young man here with some questions for you, sir. I think he is a gentleman.\"\n\nI looked at the man, who was in his mid-twenties, tall, slender, his hair cut short, wearing a fine suit of grey cloth with a dark blue waistcoat. He was rather pale, his face pinched.\n\n\"Come in,",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "0de3fd05",
+      "text": " \"We must get on with the work.\"\n\nThe accounts were in order, the balance will be a fine instrument, and I expect that the sheets will be delivered tomorrow. I can resume the work. I am ready to resume the work.\n\nAnd yet, this evening, I find myself unable to do so. A headache, a pain in the chest. It is not the same as before. I do not think it is the same at all.",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "40aa7c50",
+      "text": " \"Take this with you, and find the solution to the problem.\"\n\nThe young man's face paled. \"It is not done?\"\n\n\"I am not satisfied that it is done.\"\n\n\"But you have been working at it for three years, sir.\"\n\n\"And I have not succeeded in three years. This is a problem worthy of me; I shall solve it.\"\n\nThe young man bowed and departed.",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "87365b6e",
+      "text": "\n\n'Mell, we have a problem.'\n\n'What, Sir?'\n\n'I have just had word from my friend, the astronomer Halley. He informs me that the comet is due to return. It is a thing of some interest.'\n\n'Well, Sir?'\n\n'Mell, I am an astronomer, an alchemist and a physician. I have an interest in the heavens, and I",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "1bc49b90",
+      "text": " 'It is time we started on that alchemical project which has been discussed for so long and is so important to the advancement of the King's Science. I think the time has come to begin the experiments which may lead to the transmutation of metals. I will prepare the instructions.'\n\nThe project was to be secret, as my instructions stated, and to be pursued only by my assistant, whose name I did not know, but I",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "f5bb4790",
+      "text": "\n\n'Have you taken up my challenge to make the new balance as sensitive as the old?'\n\n'I have, sir, and I have succeeded. You see the result before you.'\n\n'Good, I will examine it.'\n\n'I beg your pardon, sir, I mean the balance I made. I have not seen the one that was found at your house.'\n\n'It is no matter, I will see yours first.'",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "0a9f4202",
+      "text": " 'We must finish this by the end of the week.'\n\nThere was an explosion in the laboratory. The assistant had forgotten to turn off the flame under the flask. The glass blew out, and the contents spilled across the floor.\n\n'Why did you not watch?' I said, and I saw that the assistant was crying.\n\nThe work of the Royal Society is not always to be done with our hands.\n\nSaturday, ",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "7f50883b",
+      "text": "\n\n\"Watson, my boy, the sun is not as he was. He has changed, and I have observed it.\"\n\n\"Are you not troubled, Sir?\"\n\n\"It is a secret of my science, and I shall say no more. I have sent for the Royal Astronomer, Edmond Halley, to come to London this spring. He has promised to bring his instruments and make a careful measurement of the sun'",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "67a79990",
+      "text": "\n\n“Why do you have those figures in your eye, and that look of concentration?”\n\nHe replied, “I am calculating the orbit of Comet Halley, Sir.”\n\nI said, “Do not trouble yourself. I know the orbit of Halley’s comet as well as any man.”\n\n“That is true, Sir. You have published it and your calculations have stood the test of time. But the orbit of the",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "a5619c8c",
+      "text": " 'Mr. Boyle, my boy, are we ready?'\n\n'No, Sir,' he replied, 'we are not. I have spent two days' work on the calculations, and still cannot account for the deviation.'\n\n'Two days' work? Deviation? What does he mean, deviation?' I said to myself. 'I suppose he means that the time of the tides is not what it should be, and that I must",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "9aa370e3",
+      "text": "\n\n\"I am determined to know the truth; the consequence be what it will. If the experiment succeed, so much the better; but if it do not succeed, it will not alter the course of the world.\"\n\nThis is what I have written in my notes since my return to London.\n\n## A.\n\nAfter the storm, the skies have cleared. The King has approved the new assay balance, which has been sent to the",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "526eba19",
+      "text": " \"Mr. Whiston, you have been asked to attend the Society tomorrow. It is the matter of the great comet which was visible in 1680. The astronomers have determined its orbit, but the mathematical astronomer Halley has found a remarkable coincidence. The same comet was visible in 1531, and in 1607, and it may return in 1758. This is of great importance",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "d429ac39",
+      "text": " \"The world is all before you. It is your business to be ready for it. The question is not what you look at, but what you see.\"\n\nI have taken my meals in the company of John Conduitt, who is always eager for news of the progress of my work. He has brought me a manuscript from Cambridge, and this is what it says:\n\n1727\n\nJohn Flamsteed\n\nMaster of the",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "4c4e2a05",
+      "text": " 'Tell me, Watt, what you think of the new invention for raising water by steam.'\n\nI had hoped for an enthusiastic response, but he only shrugged. 'It is not very impressive. I have seen a machine that does the same thing, only without the noise and heat.'\n\n'What!' I cried. 'You are joking!'\n\n'No, sir.'\n\n'Then show me this machine,' I said.\n",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "69c5dd43",
+      "text": "\n\n'Give Mr. Pemberton my compliments, and say that I am not yet satisfied with the construction of the universal joint, nor the mode of fixing the pin. The idea of a screw would seem the easiest and most suitable. It would be a pity to lose time over the design, so if it is convenient, ask him to come and see me tomorrow.'\n\nIn the afternoon I dined at the house of the Duke of Montagu",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "9367be80",
+      "text": "\n\n'Watson, are there no young men in the Mint who wish to be educated?'\n\n'I do not know, Mr Newton.'\n\n'Are there no young men who are eager to learn about coinage? If so, why do they not apply for positions in the Mint?'\n\nWatson hesitated. 'Perhaps it is because of the conditions of employment, sir. The work is long and tedious.'",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "97a3c018",
+      "text": " “The second edition has not sold well. The public may think that the subject has been treated more fully before, but this is not so.” I believe that the public has a taste for new discoveries, but not for repetition. I shall write to Mr. Halley, suggesting that he should add some new work to the third edition. I think he is working now on comets, and it will not be hard to persuade him to make it a substantial",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "488144bc",
+      "text": " 'I have no patience for these vulgar tradesmen, who know nothing of mathematics. What is the use of this assay balance, when the error of the weights is so large? Why do not you learn some calculus?'\n\nThe assistant replied: 'I am sorry, Mr Newton, but I have not had the time. The men in my own trade have been complaining of my neglect, and I have had to make up lost ground, and",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "ea108bb5",
+      "text": "\n\n'This is not the work for which I was made. I have not had a clear sky for three months. I have no instruments but those I have made myself and few have had the skill to make them as well as I. The people are so stupid they can do no work but under the most rigid supervision, and then not very well. I have to send to the provinces for money and men, and those I find are worse than the English",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "f3cf6b0d",
+      "text": " \"Let the book be sent to the press forthwith. If any faults have escaped my notice, I shall amend them in the next edition. The next edition, which I hope shall be my last. I would wish to give it as the final result of my labours.\"\n\nI had to wait to hear of the death of my old friend, Mr. Edmond Halley, before I could make this entry in my notebook.\n\nThis is",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "7e586c36",
+      "text": " 'I have an idea, but I must make my calculations.'\n\nA man with a sack approaches. I look up. He is a stranger. He holds up a hand. 'Master, you will not refuse me shelter for the night?'\n\n'We have a bed for you,' I say. He has a name: Richard Hoskins.\n\n'My name is Newton,' I say. I give him food and drink. He takes little",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "48651caa",
+      "text": "\n\n'Today we shall have a discussion on the new method of determining the weight of gold.'\n\n'We shall not,' he said. 'We shall have a discussion on the new method of determining the weight of gold in the absence of a working assay balance.'\n\n'There is no such thing. I shall not have this discussion with you.'\n\n'But you will have this discussion with yourself. I would have you know that in the",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "275890cd",
+      "text": " 'I know that you are a man of letters, and I also know that you are fond of the theatre; but it seems to me that your interest in the latter has of late been undue. You may continue to see the plays, and I am pleased to find you are using your own name on the books, but I think it unsuitable to see plays that do not have a new season at court.'\n\nThis morning I had the pleasure of meeting",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "b6479ef9",
+      "text": " “A new edition will be a good thing for my fame. I am much older now.”\n\nHe replied: “But, Sir, you are the most eminent living philosopher in the world, and you are young and strong in body, and have had more leisure than most men. You may hope to live to a great age, Sir, and to do more work for the advancement of knowledge.”\n\nI answered: “My brother is already",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "b501a915",
+      "text": "\n\n\"Take these, and carry them to Mr. Moody at the assayer's office. Tell him that he is to take the metal, test it, and then return the coins to me, with the balance of the gold and silver. If the money is of the right fineness, then pay it out to the officers of the Mint. If it is not, then tell him to return the coins to me and I will send them back",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "2047ca01",
+      "text": "\n\n> 'If the printer delays again, the books will not be ready by April, and we must expect another spring of ill-feeling in Parliament. I will write a letter to the printer now.'\n\nThen I said:\n\n> 'I should like to see how the assay balance works. I will go down to the Mint this afternoon.'\n\nMy assistant asked:\n\n> 'What about the experiment in the evening?'",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "70b3601e",
+      "text": " \"I have found out the way to remove the speckles from the leaves of gold; this will be a very fine thing, for I shall thereby render the money of this realm more beautiful.\"\n\nMy assistant was, as usual, silent.\n\nI have begun to receive reports from my correspondents. A few have been less successful than I in the search for the philosopher's stone. Dr. Leibniz writes, in a letter of",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "b06db45e",
+      "text": " \"What do you think of the latest of the reports from the colonies? The news of the earthquake in Carthage is not encouraging. What are we to do?\"\n\nMy assistant, Mr Edmond Halley, is a fine man, and I have employed him as a calculator of the moon's parallax for many years. We are often at odds, as he is a young man and has some rather wayward opinions. He smiled",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "031060c7",
+      "text": " \"The printing is late. It is the printer's fault. I will have the new sheets printed elsewhere.\"\n\nBut my assistant was unconvinced. \"I have heard it said that printers have the best excuse of all the trades for delays. It is their custom to delay until the last possible moment and then print by night to keep ahead of the post.\"\n\n\"This is the second time you have spoken of custom. You have",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "967ade6d",
+      "text": " \"Sir, I have made a new discovery in mathematics, which will be of great use in all the future sciences. I have found the method of drawing a tangent to any curved line, and of finding the area contained between any two curved lines. These are of such importance and use in geometry that I shall set down the method in some future edition of my Principia, and I would have it published in the Philosophical Transactions. Do you",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "ca5ff3b1",
+      "text": " \"What say you to a walk through the fields this evening, Mr. Edwards?\"\n\n\"I would like that very much, Sir,\" he said, and he looked at me with eyes shining as brightly as a spring sun in the western sky.\n\n\"I will tell you, then,\" I said, and I was so pleased that I laughed aloud, as I have not done since my wife died. \"The work we are about to do has",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "8e5840aa",
+      "text": " \"We can finish this work within the year, if the printer does not disappoint us, and we shall have completed the history of the motion of the planets in the solar system. There will be no more reason to search for a new system of the world.\"\n\nBut there are those who will not rest content with what has been found out, and the question of the motion of the tides has already been raised.\n\nFor some time, I have been aware",
+      "children": [],
+      "visited": true,
+      "open": true
+     },
+     {
+      "id": "45c4b65d",
+      "text": "\n\n'You have finished the drawings of the balance, I hope?'\n\n'It is here, sir.'\n\n'Very well. It will be good to have the third edition ready for the Royal Society this year. And now let us look at the balance itself.'\n\n'It will not be long before I have to ask your help in calibrating it,' the assistant said.\n\n'Yes, I imagine the weight of the counterweights",
+      "children": [],
+      "visited": true,
+      "open": true
+     }
+    ],
+    "visited": true,
+    "open": true
+   }
+  ]
+ },
+ "selected_node_id": "e4528c86",
+ "frame": {
+  "generation_settings": {
+   "model": "davinci-002",
+   "response_length": 90,
+   "num_continuations": 4,
+   "temperature": 0.9,
+   "top_p": 1,
+   "logprobs": 3
+  },
+  "model_config": {
+   "models": {
+    "davinci-002": {
+     "model": "davinci-002",
+     "type": "openai",
+     "api_base": "https://api.openai.com/v1"
+    },
+    "meta-llama/Meta-Llama-3.1-405B": {
+     "model": "meta-llama/Meta-Llama-3.1-405B",
+     "type": "openai",
+     "api_base": "https://api.hyperbolic.xyz/v1"
+    },
+    "mistralai/Mistral-7B-v0.1": {
+     "model": "mistralai/Mistral-7B-v0.1",
+     "type": "together",
+     "api_base": "https://api.together.xyz/v1"
+    },
+    "local-gguf": {
+     "model": "local-gguf",
+     "type": "llama-cpp",
+     "api_base": "http://127.0.0.1:8011/v1"
+    }
+   }
+  }
+ }
+}
