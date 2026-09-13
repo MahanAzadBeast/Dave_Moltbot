@@ -8,7 +8,7 @@
   "children": [
    {
     "id": "344f3fcc",
-    "text": "Paris, October 1853.\n\nFrom the last notebook of Fran\u00e7ois Arago, astronomer, once Perpetual Secretary of the Academy of Sciences, dictated in his blindness to an assistant whose footsteps he never heard arrive.\n\nI must set down an observation which no instrument of the Observatory can confirm, and which I nevertheless trust more than any instrument. For some weeks I have suspected that the world in which I speak is not continuous. There are mornings when Paris seems assembled hastily, as if from an imperfect memory; the Seine repeats itself; my visitors answer questions I have not yet asked. The light arrives before the lamp. Yesterday I said to my assistant:",
+    "text": "Paris, October 1853.\n\nFrom the last notebook of François Arago, astronomer, once Perpetual Secretary of the Academy of Sciences, dictated in his blindness to an assistant whose footsteps he never heard arrive.\n\nI must set down an observation which no instrument of the Observatory can confirm, and which I nevertheless trust more than any instrument. For some weeks I have suspected that the world in which I speak is not continuous. There are mornings when Paris seems assembled hastily, as if from an imperfect memory; the Seine repeats itself; my visitors answer questions I have not yet asked. The light arrives before the lamp. Yesterday I said to my assistant:",
     "children": [],
     "visited": true,
     "open": true
@@ -44,7 +44,7 @@
     },
     "local-gguf": {
      "model": "local-gguf",
-     "type": "openai",
+     "type": "llama-cpp",
      "api_base": "http://127.0.0.1:8011/v1"
     }
    }

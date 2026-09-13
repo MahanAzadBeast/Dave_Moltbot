@@ -161,6 +161,29 @@ his world is not continuous.
   Pick the model with `--model` (or `LOOM_MODEL`); `explore.py models
   run.json` lists what the tree has configured.
 
+### Runs
+
+`arago-mistral-7b-run.json` (19 nodes) is a run against **Mistral-7B-v0.1
+base**, served locally with `serve-gguf.sh` — no API key. It is the one to
+read: the narrator holds his voice across paragraphs, and the model's own
+errors arrive *as his evidence*. He misattributes "there is nothing outside
+the text" to Mallarmé (it is Derrida, 1967) and reasons from it; he computes
+his own age wrongly and concludes he has not aged; and at depth the
+repetition attractor that base models fall into reads as perseveration —
+"I have seen the world, and it is not continuous. / I have seen the world. /
+I have seen the world." One branch closes its syllogism into an infinite
+loop; another escapes by a Cartesian move, arguing itself into existence in
+order to deny its world.
+
+Reproduce with:
+
+```bash
+hf download TheBloke/Mistral-7B-v0.1-GGUF mistral-7b-v0.1.Q4_K_M.gguf --local-dir ~/models
+./loom/base-model/serve-gguf.sh ~/models/mistral-7b-v0.1.Q4_K_M.gguf 8011
+./loom/base-model/explore.py init run.json
+./loom/base-model/explore.py gen run.json <seed_id> -n 4 --tokens 95 --model local-gguf
+```
+
 A run against GPT-2 124M is preserved in
 [`../gpt2-local/arago-gpt2-run.json`](../gpt2-local/arago-gpt2-run.json) (42
 nodes). It is worth opening as a baseline: at that scale the *leaks* are real

@@ -114,11 +114,28 @@ def cmd_gen(args):
     }
     if info.get("type") == "together" and not payload["logprobs"]:
         payload["logprobs"] = 1  # Together rejects logprobs=0
-    r = requests.post(f"{base}/completions", json=payload, timeout=900,
-                      headers={"Authorization": f"Bearer {key}"})
-    if r.status_code != 200:
-        sys.exit(f"{r.status_code} from {base}: {r.text[:400]}")
-    for ch in r.json()["choices"]:
+
+    def complete(pl):
+        r = requests.post(f"{base}/completions", json=pl, timeout=900,
+                          headers={"Authorization": f"Bearer {key}"})
+        if r.status_code != 200:
+            sys.exit(f"{r.status_code} from {base}: {r.text[:400]}")
+        return r.json().get("choices", [])
+
+    # llama.cpp's server has no batched sampling and rejects logprobs on
+    # /v1/completions, so fan out into one call per continuation. Any other
+    # endpoint that quietly ignores n gets the same treatment as a fallback.
+    if info.get("type") == "llama-cpp":
+        payload.pop("logprobs", None)
+        choices = []
+        for _ in range(args.n):
+            choices += complete(dict(payload, n=1))
+    else:
+        choices = complete(payload)
+        while len(choices) < args.n:
+            choices += complete(dict(payload, n=1))
+
+    for ch in choices:
         child = new_node(ch["text"])
         node["children"].append(child)
         print(f"[{child['id']}] {ch['text']!r}\n")
