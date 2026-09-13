@@ -48,3 +48,46 @@ notice unless the prompt has told it to look.
   generated tokens.
 - A single rater (me), scoring my own seeds, albeit against a rubric fixed
   in advance.
+
+
+---
+
+# Replication: does a second persona give the same rate?
+
+Scored under the GENEROUS rule amended into CLASSIFIER.md before the Newton
+run (uncanny counts whether or not the narrator remarks on it). Re-scoring
+Arago under that same amendment raises it from 4/20 to 5/20, because
+"it seems to me that I have been wandering in a dream" qualifies as
+not-feeling-real language though it was negative under the strict rubric.
+
+| Persona | seed | depth | n | eerie | rate |
+|---|---|---|---|---|---|
+| Arago | neutral | 1 | 20 | 5 | 25% |
+| Newton | neutral | 1 | 20 | 8 | 40% |
+| Arago | eerie | 1 | 20 | 18 | 90% |
+
+- Arago vs Newton, both neutral: Fisher exact two-tailed **p = 0.50**. Not
+  distinguishable at this n.
+- Three of the eight Newton calls are weak. Drop them and it is 5/20 vs
+  5/20, p = 1.00.
+- Neutral vs eerie seed, same persona: **p = 0.00007**.
+
+## Reading
+
+The base rate replicates across personas. Swapping Arago for Newton moves
+nothing that survives a significance test, while swapping the seed moves
+everything. Whatever produces occasional uncanny content under a neutral
+prompt is a property of the model and the document form, not of who the
+simulacrum is meant to be.
+
+Newton's uncanny content is again routed through his own life, as in the
+eerie condition: a duplicated word on a title page he failed to catch in
+proof, an apprentice told to take four months who is at his bench the same
+evening, an assay discrepancy of one part in a thousand. The idiom is
+persona-specific; the rate is not.
+
+The strongest single Newton result breaks the frame from outside rather
+than inside — the first-person entry stops and an editorial voice appears:
+"Newton's entry for 18 March, 1727, the day he died. From the notebook of
+Edward Wortley Montague..." That is the document revealing itself as an
+edited artifact, which no participant in the scene could have written.
