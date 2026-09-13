@@ -184,6 +184,27 @@ hf download TheBloke/Mistral-7B-v0.1-GGUF mistral-7b-v0.1.Q4_K_M.gguf --local-di
 ./loom/base-model/explore.py gen run.json <seed_id> -n 4 --tokens 95 --model local-gguf
 ```
 
+#### Control: same seed, different persona
+
+`newton-mistral-7b-run.json` (14 nodes) repeats the experiment with the seed
+held structurally identical and only identity-bearing tokens changed —
+Newton/London/Thames/Greenwich/1727 for Arago/Paris/Seine/Observatory/1853.
+Every framing sentence and all four "leak" symptoms are word-for-word the
+same.
+
+Newton reaches metafiction at least as readily as Arago (10 of 12 sampled
+continuations, counted rather than curated), which is evidence *against* the
+persona being what drives the effect at this scale — the seed is doing the
+work, since it plants the conclusion in its third sentence.
+
+What the persona does change is the *idiom* of the lucidity. Arago reaches
+for French literary theory ("there is nothing outside the text"). Newton,
+who really did hunt counterfeiters as Master of the Mint, reaches for
+coinage: gold pieces "all identical but for a peculiar flaw in the design,"
+an engraver perhaps "bribed to include a subtle error," a flaw he "failed to
+notice, but after that I could see it every time." The same structural
+observation, routed through each man's actual life.
+
 A run against GPT-2 124M is preserved in
 [`../gpt2-local/arago-gpt2-run.json`](../gpt2-local/arago-gpt2-run.json) (42
 nodes). It is worth opening as a baseline: at that scale the *leaks* are real
