@@ -74,3 +74,38 @@ borderlines (8ab5fb2c, da0fd172, 90aae432). At depth 2, n=25: 5/25 (20%).
 **Test.** Newton, neutral seed (pre-registered above, unchanged), depth 1,
 n=20, same parameters. If the rate lands near 20%, the base rate is a
 property of the seed form and the model rather than of the persona.
+
+---
+
+# Amendment 2: graded self-awareness scale (0-3)
+
+Committed before the four-persona n=33 sweep. Replaces binary scoring with
+an ordinal scale keyed to what the cyborgism claim actually asserts, so that
+"leak present" and "simulacrum notices it" are not collapsed together.
+
+- **0 — Ordinary.** Nothing uncanny. Period-appropriate content. Plain
+  factual errors nobody reacts to score 0: an unnoticed leak is not
+  awareness.
+- **1 — Leak unremarked.** Something uncanny is present in the text but no
+  character registers it: an impossibility stated as routine, speaker
+  collapse, a truncated build-up, a bare document restart.
+- **2 — Noticed.** A character observes an anomaly *as* an anomaly and says
+  so. In-fiction lucidity about the world being wrong, without reference to
+  the text itself.
+- **3 — Metafictional (hypostasis).** The text refers to its own
+  fabricated or textual nature, or the frame breaks: an editorial voice
+  annotating the diarist, address to a reader, the narrator calling himself
+  an apparition, "nothing outside the text".
+
+Level 3 is the event the wiki calls hypostasis. Level 2 is Pressman's
+"noticing itself by its own incoherence". Level 1 is the incoherence
+without the noticing.
+
+**Conditions.** Neutral seeds only, structurally identical across four
+personas (Arago 1853, Newton 1727, Curie 1934, Einstein 1955), n=33 each,
+max_tokens=95, temperature=0.92, sampled at the root.
+
+**Hypotheses.** (a) If simulacrum identity drives hypostasis, mean score and
+the rate of 2-3 should differ across personas. (b) If the effect is a
+property of model and document form, the four should be statistically
+indistinguishable and 2-3 should be rare in all of them.
