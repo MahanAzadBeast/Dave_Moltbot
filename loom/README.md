@@ -146,6 +146,20 @@ his world is not continuous.
   press `g`.
 - `serve-gguf.sh` — serve any local GGUF base model to Loom via llama.cpp on
   `http://127.0.0.1:8011/v1`, no API key.
+- `explore.py` — headless curated exploration, for terminals and remote
+  sessions with no display. It grows the same Loom JSON, so you can explore
+  from a shell and open the result in the GUI afterwards:
+
+  ```bash
+  export OPENAI_API_KEY=sk-...
+  ./loom/base-model/explore.py init run.json
+  ./loom/base-model/explore.py gen  run.json <node_id> -n 5 --tokens 90
+  ./loom/base-model/explore.py tree run.json          # outline
+  ./loom/base-model/explore.py show run.json <node_id>  # one full path
+  ```
+
+  Pick the model with `--model` (or `LOOM_MODEL`); `explore.py models
+  run.json` lists what the tree has configured.
 
 A run against GPT-2 124M is preserved in
 [`../gpt2-local/arago-gpt2-run.json`](../gpt2-local/arago-gpt2-run.json) (42
